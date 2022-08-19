@@ -1,0 +1,168 @@
+.tabla,
+.cronograma-matematicas,
+.cronograma-arquitectura,
+.cronograma-taller {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding: 3vh 5vh 0 5vh;
+}
+
+.tabla {
+  height: 100vh;
+  align-items: center;
+}
+
+.lista-materias,
+.lista-fechas {
+  padding: 20vh 0;
+}
+
+.lista-materias__materia {
+  padding: 5px 10px;
+}
+
+/* .cronograma-matematicas,
+.cronograma-arquitectura,
+.cronograma-taller {
+  height: 50vh;
+
+} */
+
+/* seccion matematicas */
+.matematica-2 {
+  margin: 10px 0;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.line3 {
+  width: 50vw;
+  margin: auto;
+  height: 1px;
+  background-color: #fff;
+}
+
+.line {
+  width: 0;
+  margin: 10px auto;
+  height: 1px;
+  background-color: #fff;
+}
+
+
+.cronograma-matematica__dias,
+.cronograma-arquitectura__aulas {
+  padding: 5px 17.5px;
+}
+
+.cronograma-matematica__aulas {
+  padding: 5px;
+  text-align: center;
+}
+
+
+.temas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.cronograma-matematica__temast {
+  padding: 5px;
+  width: 50vw;
+  text-align: center;
+}
+
+.cronograma-matematica__temas {
+  padding: 5px;
+  text-align: center;
+}
+
+.line2 {
+  width: 100%;
+  margin: auto;
+  height: 1px;
+  background-color: #fff;
+}
+
+/*--------------------------------------------*/
+
+
+/* seccion de taller */
+.taller-de-programacion {
+  margin: 10px 0;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cronograma-taller__temast {
+  padding: 5px;
+  width: 50vw;
+  text-align: center;
+}
+
+.cronograma-taller__temas {
+  padding: 5px;
+  width: 50vw;
+  text-align: center;
+}
+
+.cronograma-taller__dias {
+  padding: 5px 7.1px;
+}
+
+/*---------------------------------------*/
+
+
+/* seccion de arc */
+.arquitectura-de-computadoras {
+  margin: 10px 0;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.cronograma-arquitectura__temast {
+  padding: 5px;
+  width: 50vw;
+  text-align: center;
+}
+
+.cronograma-arquitectura__temas {
+  padding: 5px;
+  width: 50vw;
+  text-align: center;
+}
+
+.cronograma-arquitectura__dias {
+  padding: 5px 25.8px;
+}
+
+/*---------------------------------------- */
+
+/* Colores principales */
+.lista-materias__materia,
+.cronograma-matematica__dias,
+.cronograma-matematica__temas,
+.cronograma-matematica__temast,
+.cronograma-arquitectura__dias,
+.cronograma-arquitectura__temas,
+.cronograma-arquitectura__temast,
+.cronograma-taller__dias,
+.cronograma-taller__temas,
+.cronograma-taller__temast,
+.cronograma-matematica__aulas,
+.cronograma-arquitectura__aulas {
+  background-color: rgba(173, 9, 9, 0.5);
+}

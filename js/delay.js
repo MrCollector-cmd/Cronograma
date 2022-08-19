@@ -1,0 +1,10 @@
+ScrollReveal().reveal('.tabla');
+ScrollReveal().reveal('.matematica-2', { delay: 100 });
+ScrollReveal().reveal('.cronograma-matematicas', { delay: 100 });
+ScrollReveal().reveal('.cronograma-arquitectura', { delay: 100 });
+ScrollReveal().reveal('.cronograma-taller', { delay: 100 });
+ScrollReveal().reveal('.temas', { delay: 100 });
+ScrollReveal().reveal('.titulo-galeria', { delay: 100 });
+ScrollReveal().reveal('.galeria-pdf', { delay: 100 });
+ScrollReveal().reveal('.arquitectura-de-computadoras', { delay: 100 });
+ScrollReveal().reveal('.taller-de-programacion', { delay: 100 });
