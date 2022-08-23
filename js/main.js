@@ -4,12 +4,13 @@ const img = document.querySelector(".pdf-vista");
 const contenedroLight = document.querySelector(".show-img");
 const imagenes = document.querySelectorAll(".pdf-vista");
 const depImg = document.querySelector(".drop-img");
-const galeria = document.querySelector("galeria-pdf");
+const galeria = document.querySelector(".galeria-pdf");
 let clase;
 
 icono.addEventListener('click', () => {
-  menu.classList.toggle("move");
+  menu.classList.toggle('move');
   icono.style.display = 'none';
+  document.querySelector('.move').style.width = '100vw';
 });
 window.addEventListener('click', e => {
   if (menu.classList.contains('move')
