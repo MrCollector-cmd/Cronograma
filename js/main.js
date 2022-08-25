@@ -10,7 +10,7 @@ let clase;
 icono.addEventListener('click', () => {
   menu.classList.toggle('move');
   icono.style.display = 'none';
-  document.querySelector('.move').style.width = '100vw';
+  document.querySelector('.move');
 });
 window.addEventListener('click', e => {
   if (menu.classList.contains('move')
